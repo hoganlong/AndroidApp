@@ -2,7 +2,6 @@ package com.dialelo.androidapp;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.app.
 
 public class HomeActivity extends Activity
 {
