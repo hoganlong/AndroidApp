@@ -2,11 +2,13 @@ AndroidApp
 ----------
 
 A framework for developing an Android App using the following technologies: 
+
   * Maven for building, testing and deployment.
   * Robolectric as a unit testing framework.
 
 The purpose of the framework is to provide a workflow for developing 
 Android applications using TDD. The main ideas behind the project are:
+
   * Do not depend on an Android emulator.
   * Develop rapidly using unit testing.
   * Try the application in real devices.
@@ -15,7 +17,8 @@ Maven
 -----
 
 Maven is a project management tool that provides mechanisms to automate builds,
-generation of documentation, track dependencies and much, much more.
+generation of documentation, track dependencies and much, much more. Maven's 
+settings file is `pom.xml`.
 
 More information can be found in the proyect's website:
 
@@ -34,3 +37,28 @@ I also recommend to take a look at this sample project to start becoming
 familiar with the framework:
 
     https://github.com/pivotal/RobolectricSample
+
+Goodies
+-------
+
+I'm also using Kenneth Reitz's autoenv:
+
+      https://github.com/kennethreitz/autoenv
+
+`.env` file contains a number of handy aliases to use when we are working on
+a project:
+
+  * `install` runs the `mvn install` command.
+  * `test` runs the project's test suite.
+  * `deploy` packages and puts the apk in the target emulator 
+     or connected devices.
+
+TODO
+----
+
+* write a script for automating the renaming of packages, app name, developer, etc.  
+
+License
+-------
+
+See MIT-LICENSE.
