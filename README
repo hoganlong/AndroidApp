@@ -1,7 +1,7 @@
 AndroidApp
 ----------
 
-Boiler plate for developing an Android App using the following technologies: 
+Boilerplate for developing an Android App using the following technologies: 
 
   * Maven for building, testing and deployment.
   * Robolectric as a unit testing framework.
