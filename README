@@ -1,13 +1,13 @@
 AndroidApp
 ----------
 
-A framework for developing an Android App using the following technologies: 
+Boiler plate for developing an Android App using the following technologies: 
 
   * Maven for building, testing and deployment.
   * Robolectric as a unit testing framework.
 
-The purpose of the framework is to provide a workflow for developing 
-Android applications using TDD. The main ideas behind the project are:
+The purpose is to provide a workflow for developing Android applications using 
+TDD. The main ideas behind the project are:
 
   * Do not depend on an Android emulator.
   * Develop rapidly using unit testing.
